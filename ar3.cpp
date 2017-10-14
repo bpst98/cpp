@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-  char a[100]="this is some array";
+  char a[100]="some array s";
   cout<<a<<endl;
 
   char *ans;

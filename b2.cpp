@@ -19,7 +19,7 @@ bool isprime(int no)
 int main()
 {
   int n;
-  cin>>n
+  cin>>n;
   if(isprime(n))
   cout<<"prime no.";
   else

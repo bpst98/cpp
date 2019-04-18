@@ -14,9 +14,6 @@ void subseq(char *in,char *out,int i,int j)
   subseq(in ,out,i+1,j+1);
   subseq(in ,out,i+1,j);
 
-
-
-
 }
 
 

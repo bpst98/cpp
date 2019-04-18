@@ -1,13 +1,12 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
+
 
 
 int main()
 {
-
-  char a[]={'a','s'};
-  cout<<a<<endl;
+  cout<<"hello";
 
 
-  return 0;
 }

@@ -18,11 +18,13 @@ int search(int *a,int n,int i,int key)
   return smallindex;
 }
 
-int min()
+int main()
 {
   int a[]={1,5,3,2,0,9};
 
   int n= sizeof(a)/sizeof(int);
 
   cout<<search(a,n,0,2);
+
+  return 0;
 }

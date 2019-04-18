@@ -24,5 +24,5 @@ int main()
 
   int n= sizeof(a)/sizeof(int);
 
-  cout<<search(a,n,2);
+  cout<<search(a,n,5)<<endl;
 }

@@ -7,19 +7,20 @@ int main()
 {
 
 
-vector<int> b;
-b.push_back(78);
-b.push_back(40);
-cout<<b[1]<<endl;  //push back
-b.clear();
-cout<<b[1]<<endl;
-  //pop back
+vector<int> arr;
 
-  //print
+for(int i=0;i<5;++i)
+arr.push_back(i+2);
 
-  //[]to get the element at ith position
+cout<<arr.size()<<endl   ;       //=====gives size
+arr.pop_back();           //=====pop arrack
 
-  //
+  //sort
+  sort(arr.begin(),arr.end());
+cout<<" capacity "<<arr.capacity()<<endl;
+  for(int i=0;i<5;++i)
+cout<<arr[i]<<"  "<<endl;
+
 
 
 }

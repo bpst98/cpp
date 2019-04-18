@@ -19,6 +19,6 @@ int main()
 {
   char a[]="1234";
   int n=4;
-  cout<<fun(a,n);
+  cout<<fun(a,n)<<endl;
 
 }

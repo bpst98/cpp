@@ -1,38 +1,34 @@
 #include<iostream>
 using namespace std;
 
-void bubsort(int *a,int j,int n)
+void bubbleSort(int arr[], int n)
 {
-  if(n==1||n==0)
-  return;
+    // Base case
+    if (n == 1)
+        return;
 
-/*  for(int j=0;j<n-1;++j)
-  {
-    if(a[j]>a[j+1])
-    swap(a[j],a[j+1]);
-  } */
+    // One pass of bubble sort. After
+    // this pass, the largest element
+    // is moved (or bubbled) to end.
+    for (int i=0; i<n-1; i++)
+        if (arr[i] > arr[i+1])
+            swap(arr[i], arr[i+1]);
 
-  if(j==n-1)
-  {
-    bubsort(a,0,n-1);
-    return;
-  }
-
-  if(a[j]>a[j+1])
-  swap(a[j],a[j+1]);
-
-  bubsort(a,j,n);
-
+    // Largest element is fixed,
+    // recur for remaining array
+    bubbleSort(arr, n-1);
 }
 
 int main()
 {
+int n;
+cin>>n;
 
-int a[]={0,1,9,5,3};
-int n=sizeof(a)/sizeof(int);
-
-bubsort(a,0,n);
+int a[n];
 for(int i=0;i<n;++i)
-cout<<a[i];
+cin>>a[i];
+bubbleSort(a,n);
+for(int i=0;i<n;++i)
+cout<<a[i]<<" ";
 
 }

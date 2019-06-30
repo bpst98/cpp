@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2158677D226911BD005A86F5 /* balancedParentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2158677C226911BD005A86F5 /* balancedParentheses.cpp */; };
+		2161E5C722C88331001DF18E /* nqueen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2161E5C622C88331001DF18E /* nqueen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		2158677222690AAD005A86F5 /* ParanthesisBACKTRACKING */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ParanthesisBACKTRACKING; sourceTree = BUILT_PRODUCTS_DIR; };
 		2158677C226911BD005A86F5 /* balancedParentheses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = balancedParentheses.cpp; sourceTree = "<group>"; };
+		2161E5C622C88331001DF18E /* nqueen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = nqueen.cpp; path = nqueen/nqueen.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				2158677C226911BD005A86F5 /* balancedParentheses.cpp */,
+				2161E5C622C88331001DF18E /* nqueen.cpp */,
 			);
 			path = ParanthesisBACKTRACKING;
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2158677D226911BD005A86F5 /* balancedParentheses.cpp in Sources */,
+				2161E5C722C88331001DF18E /* nqueen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
